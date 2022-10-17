@@ -1,36 +1,39 @@
 *{
-    margin: 0%;
     text-decoration: none;
 }
-.NavBar{
-    display: flex;
-    max-width: 50%;
-    width: 1280px;
-    height: 52px;
+.Container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
 }
-.NavBar a{
+.logo{
+    color: #394149;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar a{
     color: #394149;
 }
 button{
+    background-color: #F58A071A;
+    color: orange;
     width: 173px;
     height: 52px;
-    border-color: orange;
-    border-radius: 20px;
-    color: orange;
-    background-color: #F58A071A;
+    border-radius: 31px;
+    border-color: #F58A071A;
+    font-family: 'Poppins', sans-serif;
 }
-.Nav{
-    display: flex;
-    max-width: 50%;
-    align-items: center;
-    flex-direction: row;
-    font-weight: 600px;
-    font-size: 16px;
-}
-.Nav h3{
-    display: flex;
-    align-self: flex-start;
-}
-.Nav a button{
-    align-self:end ;
+.Headerbg{
+   background-color: #DCEAF5;
+   width: 1933px;
+   height: 703px;
 }
