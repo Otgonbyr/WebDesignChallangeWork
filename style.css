@@ -1,13 +1,3 @@
-*{
-    text-decoration: none;
-}
-html{
-    margin: auto;
-    max-width: 1920px;
-    width: 100%;
-    height: 6613px;
-    font-family: 'Poppins';
-}
 .navbar p{
     display: flex;
     align-items: center;
