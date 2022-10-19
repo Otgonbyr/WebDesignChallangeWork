@@ -1,0 +1,28 @@
+.container{
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.navmenu{
+    display: flex;
+    font-weight: 600;
+}
+.nav{
+    display: flex;
+}
+.call button{
+    width: 173px;
+    height: 52px;
+    color: #F58A07;
+    font-size: 16px;
+    border-radius: 31px;
+    border-color: #F58A071A;
+}

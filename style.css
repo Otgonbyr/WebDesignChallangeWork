@@ -2,25 +2,27 @@
     text-decoration: none;
 }
 html{
-    width: 1920px;
+    margin: auto;
+    max-width: 1920px;
+    width: 100%;
     height: 6613px;
+    font-family: 'Poppins';
 }
 .navbar p{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 122px;
-    height: 28px;
+    justify-content: start;
+    width: 500px;
+    height: 128px;
     color: #063255;
 }
 .navbar{
-    margin: 0% auto;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
     display: flex;
     width: 1920px;
-    height: 52px;
+    height: 82px;
 }
 .navmenu{
     display: flex;
@@ -28,13 +30,13 @@ html{
     justify-content: end;
     word-spacing: 15px;
     display: inline-block;
+    font-weight: 600;
 }
 .navmenu a{
     align-items: center;
     justify-content: center;
     flex-direction: row;
     color: #394149;
-    font-family: 'Poppins';
     font-size: 16px;
 }
 .navmenu button{
@@ -44,7 +46,6 @@ html{
     height: 52px;
     border-radius: 31px;
     border-color: #F58A071A;
-    font-family: 'Poppins';
     font-size: 16px;
 }
 .Poster{
@@ -63,7 +64,6 @@ html{
     height: 144px;
     line-height: 72px;
     color: #1D3444;
-    font-family: 'Poppins';
     font-size: 64px;
 }
 .PosterText p{
@@ -71,12 +71,10 @@ html{
     height: 60px;
     line-height: 30px;
     color: #5B5B5B;
-    font-family: 'Poppins';
     font-size: 18px;
 }
 .bttn{
     display: flex;
-    font-family: 'Poppins';
 }
 .buttonorange{
     background-color: #F58A07;
@@ -88,7 +86,6 @@ html{
 }
 .worked{
     color:#39414980;
-    font-family: 'Poppins';
     font-size: 18px;
 }
 .PosterImage{
@@ -100,7 +97,6 @@ html{
     width: 1280px;
     height: 740px;
     background-color: #fff;
-    font-family: 'Poppins';
 }
 .HelpSection h2{
     color: #1D3444;
@@ -161,30 +157,36 @@ html{
     height: 242px;
 }
 .FeaturesSection{
-    font-family: 'Poppins';
     margin: 0% auto;
     background-color: #EDF7FF;
     width: 1920px;
     height: 665px;
 }
-.Featuretitle{
+.Feature{
+    display: flex;
+}
+.Feature h3{
     font-size: 36px;
     color: #0D1317;
     width: 619px;
     height: 132px;
 }
-.FeaturesPara{
+.Feature p{
     font-size: 18px;
     color: #1D3444;
     width: 620px;
     height: 102px;
     line-height: 30px;
 }
+.Container{
+    max-width: 1280px;
+    margin: auto;
+    width: 100%;
+}
 .Feature123{
     display: flex;
 }
 .Feature123 h4{
-    margin: 6% auto;
     margin-left: 8%;
     width: 107px;
     height: 26px;
@@ -265,7 +267,6 @@ html{
 }
 .ServiceSection{
     display: flex;
-    font-family: 'Poppins';
     margin: 4% auto;
     width: 1295px;
     height: 698px;
@@ -327,9 +328,6 @@ html{
     height: 466px;
     margin: 10% auto;
 }
-.CTAsection{
-    font-family: 'Poppins';
-}
 .CTAbg{
     display: flex;
     width: 1812px;
@@ -357,6 +355,10 @@ html{
     border-color: #FFFFFF;
 }
 .CTAright{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     width: 960px;
     height: 518px;
     background-color: #F58A07;
@@ -366,7 +368,6 @@ html{
     margin: 5% auto;
     width: 1280px;
     height: 501px;
-    font-family: 'Poppins';
 }
 .VideoLeft h3{
     width: 550px;
