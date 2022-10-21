@@ -355,9 +355,15 @@
     display: flex;
     height: 518px;
 }
-.ctaimg img{
+.ctaimage{
+    background-image: url(images/experience-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 60%;
+    max-height: 518px;
     width: 963px;
-    height: 518px;
+    height: 100%;
 }
 .ctaright{
     width: 960px;
@@ -370,6 +376,10 @@
     font-weight: 600;
     font-size: 48px;
     color: #FFFFFF;
+    padding: 40px 0px 0px 55px;
+}
+.ctasectionbutton{
+    padding: 70px 0px 0px 60px;
 }
 .ctaright button{
     width: 216px;
