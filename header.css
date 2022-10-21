@@ -1,26 +1,43 @@
 .container{
-    max-width: 1280px;
     margin: auto;
+    max-width: 1280px;
     width: 100%;
 }
-.header{
+.headernav{
     display: flex;
+    width: 1280px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
     justify-content: space-between;
 }
-.logo{
+nav{
+    width: 437px;
+    height: 24px;
+}
+.navlink{
     display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.navmenu{
+.headerbutton button{
     display: flex;
-    font-weight: 600;
-    
-}
-.call button{
+    align-items: center;
+    justify-content: center;
     width: 173px;
     height: 52px;
-    color: #F58A07;
-    font-size: 16px;
-    border-radius: 31px;
+    background-color: #F58A071A;
     border-color: #F58A071A;
+    border-radius: 31px;
+    font-size: 16px;
+    color: #F58A07;
+}
+.navlink a{
+    font-weight: 600;
+    width: 90px;
+    height: 24px;
 }
