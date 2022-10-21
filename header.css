@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 nav{
-    width: 437px;
+    width: 450px;
     height: 24px;
 }
 .navlink{
@@ -40,4 +40,5 @@ nav{
     font-weight: 600;
     width: 90px;
     height: 24px;
+    color: #394149;
 }

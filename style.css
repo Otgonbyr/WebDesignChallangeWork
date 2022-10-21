@@ -126,12 +126,15 @@
     height: 242px;
     border-radius: 20px;
 }
+
 .featuressection{
     height: 665px;
     background: #EDF7FF;
 }
 .featuretitle{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .featuretitle h3{
     width: 619px;
@@ -142,7 +145,7 @@
 }
 .featuretitle p{
     width: 620px;
-    height: 102px;
+    height: 132px;
     font-weight: 500;
     font-size: 18px;
     color: #1D3444;
@@ -233,10 +236,17 @@
     font-size: 16px;
     color: #5B5B5B;
 }
+.aboutimg{
+    width: 153px;
+    height: 667px;
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+}
 .aboutimg img{
     width: 637px;
     height: 667px;
     border-radius: 20px;
+    mix-blend-mode: multiply;
 }
 .servicesection{
     width: 1274.39px;
@@ -280,12 +290,19 @@
     height: 40px;
     justify-content: space-between;
 }
+.serviceimg{
+    width: 120px;
+    height: 466px;
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+}
 .serviceimg img{
     width: 472px;
     height: 466px;
     display: flex;
     justify-content: center;
     align-items: center;
+    mix-blend-mode: multiply;
 }
 .tab button{
     border-radius: 31px;
@@ -322,6 +339,11 @@
 .ctaimg img{
     width: 963px;
     height: 518px;
+}
+.ctaright{
+    width: 960px;
+    height: 518px;
+    background-color: #F58A07;
 }
 .ctaright h2{
     width: 532px;
